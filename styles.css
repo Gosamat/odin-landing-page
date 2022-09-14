@@ -1,0 +1,36 @@
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2937;
+    font-family: Montserrat;
+    color: #f9faf8;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1800px;
+    padding: 16px;
+
+}
+.header-logo {
+    font-size: 48px;
+    font-weight: 900px;
+}
+.top-links {
+    display: flex;
+    gap: 16px;
+    font-size: 24px;
+}
