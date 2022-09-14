@@ -8,25 +8,35 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #1f2937;
-    font-family: Montserrat;
+    font-family: "roboto";
     color: #f9faf8;
 }
 
+/*Below are the css for the top part of the website,
+ which includes the header and the sign-up text and image */
+
 .top {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
+.first-section {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 16px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1800px;
-    padding: 16px;
+    
 
 }
 .header-logo {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 900px;
 }
 .top-links {
@@ -34,3 +44,37 @@ body {
     gap: 16px;
     font-size: 24px;
 }
+.title {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 16px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    padding : 8px 24px;
+    border-radius: 10px;
+ }
+
+ .center-image {
+    width: auto;
+    height: 250px;
+ }
