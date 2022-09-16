@@ -19,6 +19,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 600px;
     
 }
 .first-section {
@@ -70,7 +71,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #3882f6;
-    padding : 8px 24px;
+    padding : 8px 32px;
     border-radius: 10px;
  }
 
@@ -78,3 +79,125 @@ body {
     width: auto;
     height: 250px;
  }
+ /*Below is the second section of the website which features random information and example of
+ illustrations and subtext*/
+
+ .second-section {
+    background-color: white;
+    height: 800px;
+ }
+ .second-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 700;
+    padding: 16px;
+    height: 100px;
+ }
+
+ .second-section-items {
+    display: flex;
+    padding: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:  120px;
+    height: 500px;
+ }
+ 
+ .item-1, .item-2, .item-3, .item-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+ }
+
+ .subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    color: #484e57;
+    text-align: center;
+    padding-top: 24px;
+
+ }
+
+ img {
+    border-radius: 10px;
+ }
+
+ .second-section-items img:hover {
+    border: 5px solid #3882f6;
+}
+ /*Below is the third section of the website which features a quote for some reason*/
+
+ .third-section {
+    background-color: #e5e7eb;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .quote {
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    gap: 32px;
+ }
+
+ .quote-text {
+    display: flex;
+    font-size: 36px;
+    text-align: left;
+    font-style: italic;
+ }
+.quote-person {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+/*Below is the fourth section of the website which features a call-to-action*/
+
+.fourth-section {
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 850px;
+}
+.cta-title {
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.fourth-section .sign-up {
+    border: 2px solid white;
+
+}
+
+/*Almost done, now it's just the footer*/
+
+.bottom {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
